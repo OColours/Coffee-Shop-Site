@@ -1,7 +1,6 @@
-
-Share my very first project from my web development bootcamp. 
-This project highlights my skills in HTML, CSS.
-
+:link::link::link: https://j1li.github.io/nitro-coffee-shop-jli/  :tada:  
+:tada:Share my very first project from my web development bootcamp.   :tada:  
+:floppy_disk:floppy_disk:This project highlights my skills in HTML, CSS.  
 # Coffee Shop Website
 
 Welcome to the Coffee Shop Website project! This is the repository for my bootcamp coffee shop project code and resources for a multi-page website designed to help a new local coffee shop establish its digital presence before opening.
