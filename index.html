@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap">
     <title>Nitro Coffee</title>
     <link rel="stylesheet" href="./css/landing.css">
     <link rel="stylesheet" href="./css/global.css">
@@ -28,79 +29,84 @@
         </ul>
     </nav>
 </header>
-    <div class="about-section" id="about-us">
-        <div class="about-container">
-            <div class="about-row">
-                <div class="about-description">
-                    <h1>Nitro Coffee</h1>
-                    <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain coffee species.</p>                    
-                    <a href="#promotion-coupon" aria-label="Shop Nitro Coffee products">
-                        <a href="./pages/menu.html">
-                            <button class="button">SHOP NOW</button>
-                        </a>
-                    </a>
-                </div>
-                <div class="about-image">
-                    <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" class="img-fluid">
-                </div>
-            </div>
+<section class="about-section" id="about-us">
+    <div class="about-container">
+        <div class="about-row">
+            <article class="about-description">
+                <h1>Nitro Coffee</h1>
+                <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain coffee
+                    species.</p>
+                <a href="./pages/menu.html" aria-label="Shop Nitro Coffee products">
+                    <button class="button">SHOP NOW</button>
+                </a>
+            </article>
+            <figure class="about-image">
+                <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" class="img-fluid">
+            </figure>
         </div>
     </div>
-    <div class="products" id="shop-products">
-        <div class="container text-center">
-            <h2 class="products__title">Our Products</h2>
-            <div class="products__card-container">
-                <div class="products__card">
+</section>
+<section class="products" id="shop-products">
+    <div class="container text-center">
+        <h2 class="products__title">Our Products</h2>
+        <div class="products__card-container">
+            <article class="products__card">
+                <figure>
                     <img src="./assets/images/coffeebeans.png" alt="Bag of Premium Coffee Beans">
-                    <h3 class="products__card-title">Coffee Beans</h3>
-                    <h3 class="price">$12.00</h3>
-                </div>
-                <div class="products__card">
+                </figure>
+                <h3 class="products__card-title">Coffee Beans</h3>
+                <h3 class="price">$12.00</h3>
+            </article>
+            <article class="products__card">
+                <figure>
                     <img src="./assets/images/coldbrew.png" alt="Refreshing Cold Brew Coffee">
-                    <h3 class="products__card-title">Cold Brew</h3>
-                    <h3 class="price">$8.00</h3>
-                </div>
-                <div class="products__card">
+                </figure>
+                <h3 class="products__card-title">Cold Brew</h3>
+                <h3 class="price">$8.00</h3>
+            </article>
+            <article class="products__card">
+                <figure>
                     <img src="./assets/images/inhousebrew.png" alt="Freshly Brewed In-house Coffee">
-                    <h3 class="products__card-title">In-house Brew</h3>
-                    <h3 class="price">$10.00</h3>
-                </div>
-            </div>
-            <a href="./pages/menu.html" aria-label="Shop Nitro Coffee products">
-                <button class="button">VIEW ALL</button>
-            </a>
+                </figure>
+                <h3 class="products__card-title">In-house Brew</h3>
+                <h3 class="price">$10.00</h3>
+            </article>
+        </div>
+        <a href="./pages/menu.html" aria-label="Shop Nitro Coffee products">
+            <button class="button">VIEW ALL</button>
+        </a>
+    </div>
+</section>
+<section class="promo" id="promotion-coupon">
+    <h2 class="promo__details">Get 20% off your first order with code: <strong>FirstNitro</strong></h2>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <section class="footer-column footer-address">
+                <h3>Address</h3>
+                <p><span>503 Broadway Penthouse</span></p>
+                <p><span>New York</span></p>
+            </section>
+            <section class="footer-column footer-hours">
+                <h3>Hours</h3>
+                <p><strong>Monday - Friday</strong>: 8 am - 8 pm</p>
+                <p><strong>Saturday - Sunday</strong>: 9 am - 6 pm</p>
+            </section>
+            <section class="footer-column footer-social">
+                <h3>Social</h3>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./assets/logo/Facebook-Icon.svg" alt="Facebook">
+                </a>
+                <a href="https://yelp.com" target="_blank">
+                    <img src="./assets/logo/Yelp-Icon.svg" alt="Yelp">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./assets/logo/Instagram-Icon.svg" alt="Instagram">
+                </a>
+            </section>
         </div>
     </div>
-    <div class="promo" id="promotion-coupon">
-        <h2 class="promo__details">Get 20% off your first order with code: <strong>FirstNitro</strong></h2>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-column footer-address">
-                    <h3>Address</h3>
-                    <p><span>503 Broadway Penthouse</span></p>
-                    <p><span>New York</span></p>
-                </div>
-                <div class="footer-column footer-hours">
-                    <h3>Hours</h3>
-                    <p><span><strong>Monday - Friday</strong>: 8 am - 8 pm</span></p>
-                    <p><span><strong>Saturday - Sunday</strong>: 9 am - 6 pm</span></p>
-                </div>
-                <div class="footer-column footer-social">
-                    <h3>Social</h3>
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="./assets/logo/Facebook-Icon.svg" alt="Facebook">
-                    </a>
-                    <a href="https://yelp.com" target="_blank">
-                        <img src="./assets/logo/Yelp-Icon.svg" alt="Yelp">
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="./assets/logo/Instagram-Icon.svg" alt="Instagram">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+</footer>
 </body>
 </html>
