@@ -1,0 +1,151 @@
+/*COLORS*/
+/*TYPOGRAPHY*/
+/*TYPOGRAPHY*/
+.heading1,
+.heading2 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.heading3,
+.header__name,
+.footer-heading {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 33px;
+}
+
+.nav-link, nav,
+.button {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.paragraph {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.paragraph-italic {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.discount-regular {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.discount-bold {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 45px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+ul li {
+  margin-right: 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+.header__name {
+  color: #393939;
+  text-decoration: none;
+}
+.header__nav a {
+  color: #393939;
+  text-decoration: none;
+}
+.header__nav a:hover {
+  color: #5BACC3;
+}
+
+body .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF0ED;
+}
+
+.hero {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__border {
+  width: 300px;
+  height: 200px;
+  background-color: #393939;
+  position: relative;
+  margin: 20px;
+}
+.hero__title {
+  color: #FFF;
+  height: 100%;
+  border: 5px solid #5BACC3;
+  position: relative;
+  top: -20px;
+  left: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  background-color: #393939;
+  border: 4px #5BACC3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__items {
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 4px solid #5BACC3;
+  padding-left: 20px;
+}
+
+.category {
+  text-align: center;
+}
+.category__item-description {
+  display: flex;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.category__item-price {
+  color: #5BACC3;
+}
+.category > section {
+  padding: 10px;
+}
+.category > section:nth-child(odd) {
+  background-color: #FFF0ED;
+}
+.category > section:nth-child(even) {
+  background-color: #F7F7F7;
+}/*# sourceMappingURL=menu.css.map */

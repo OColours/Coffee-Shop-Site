@@ -1,9 +1,11 @@
-:link::link::link: https://j1li.github.io/nitro-coffee-shop-jli/  :tada:  
-:tada:Share my very first project from my web development bootcamp.   :tada:  
-:floppy_disk:floppy_disk:This project highlights my skills in HTML, CSS.  
+:link:[Coffee Shop Site](https://ocolours.github.io/Coffee-Shop-Site/index.html) 
+
+:tada:Share my very first project from my web development bootcamp.
+
+:floppy_disk:This project highlights my skills in HTML, Sass, css.  
 # Coffee Shop Website
 
-Welcome to the Coffee Shop Website project! This is the repository for my bootcamp coffee shop project code and resources for a multi-page website designed to help a new local coffee shop establish its digital presence before opening.
+Welcome to the Coffee Shop Website project! This is the repository for my bootcamp coffee shop project code and resources for a multi-page website.
 
 ### Key Features
 
@@ -18,10 +20,11 @@ coffee-shop-website
 ├── assets              # Folder for media and assets used in the website
 │   ├── images          # Contains image files
 │   └── logo            # Contains logo files
-├── css                 # Folder for stylesheets
-│   ├── global.css      # Global styles applied across the entire website
-│   ├── landing.css     # Styles specific to the landing page
-│   └── menu.css        # Styles specific to the menu page
+├── sass                 # Folder for stylesheets
+│   ├── partials
+|   |   └── _global.sass      # Global styles applied across the entire website
+│   ├── landing.sass     # Styles specific to the landing page
+│   └── menu.sass        # Styles specific to the menu page
 └── pages               # Folder for additional HTML files
     └── menu.html       # Menu page detailing the coffee shop's offerings
 
