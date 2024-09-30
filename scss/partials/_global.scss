@@ -1,0 +1,121 @@
+$increments-20: 20px;
+$increments-15: 5px;
+$increments-5: 5px;
+
+/*COLORS*/
+//COLORS
+$color-nitro-blue: #5BACC3;
+$color-nitro-pink: #FFF0ED;
+$color-graphite: #393939;
+$color-gray: #909090;
+$color-light-gray: #F7F7F7;
+$color-White: #FFF;
+
+/*TYPOGRAPHY*/
+//FONT STYLES & WEIGHTS
+$font-family: 'Open Sans';
+$font-italic: italic;
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+//FONT SIZE
+$font-size-60: 60px;
+$font-size-45: 45px;
+$font-size-33: 33px;
+$font-size-21: 21px;
+$font-size-18: 18px;
+
+@mixin font-styles($size, $weight, $italic: false) {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-size: $size;
+
+    @if $italic {
+        font-style: italic;
+    }
+}
+
+/*TYPOGRAPHY*/
+//FONT STYLES & WEIGHTS
+.heading1,
+.heading2 {
+    @include font-styles($font-size-60, $font-light);
+}
+
+.heading3,
+.header__name,
+.footer-heading {
+    @include font-styles($font-size-33, $font-regular);
+}
+
+.nav-link,
+.button {
+    @include font-styles($font-size-21, $font-regular);
+}
+
+.paragraph {
+    @include font-styles($font-size-18, $font-regular);
+}
+
+.paragraph-italic {
+    @include font-styles($font-size-18, $font-regular, true);
+}
+
+.discount-regular {
+    @include font-styles($font-size-45, $font-regular);
+}
+
+.discount-bold {
+    @include font-styles($font-size-45, $font-bold);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+        margin-right: 20px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+nav {
+    @extend .nav-link;
+}
+
+.header {
+    a {
+        text-decoration: none;
+    }
+
+    &__name {
+        color: $color-graphite;
+        text-decoration: none;
+    }
+
+    &__nav {
+        a {
+            color: $color-graphite;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-nitro-blue;
+            }
+        }
+    }
+}
+
+
+body {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-nitro-pink;
+    }
+}

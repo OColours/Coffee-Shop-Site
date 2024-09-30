@@ -1,0 +1,80 @@
+@use '../scss/partials/global' as *;
+
+.hero {
+    background-image: url('../assets/images/coffee-circle.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__border {
+        width: 300px;
+        height: 200px;
+        background-color: $color-graphite;
+        position: relative;
+        margin: $increments-20;
+    }
+
+    &__title {
+        color: $color-White;
+        height: 100%;
+        border: 5px solid $color-nitro-blue;
+        position: relative;
+        top: -20px;
+        left: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: $color-graphite;
+    border: 4px $color-nitro-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__items {
+        color: $color-White;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 4px solid $color-nitro-blue;
+        padding-left: 20px;
+    }
+}
+
+.category {
+    text-align: center;
+
+    &__item {
+        &-description {
+            display: flex;
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+
+        &-price {
+            color: $color-nitro-blue;
+        }
+    }
+
+    >section {
+        padding: 10px;
+
+        &:nth-child(odd) {
+            background-color: $color-nitro-pink;
+        }
+
+        &:nth-child(even) {
+            background-color: $color-light-gray;
+        }
+    }
+}
